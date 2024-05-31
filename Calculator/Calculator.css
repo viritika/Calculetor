@@ -1,0 +1,59 @@
+<style>
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main {
+    display: grid;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.calculator {
+    width: 300px;
+    box-shadow: inset 1px 1px 10px gray;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 1px 1px 10px gray;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: orangered;
+    color: #fff;
+}
+
+#display {
+    box-shadow: inset 1px 1px 10px gray;
+    height: 100px;
+    text-align: start;
+    margin-bottom: 0%;
+    padding: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+    overflow: hidden;
+
+}
+
+.active {
+    color: orangered;
+}
+
+.screen {
+    padding: 10px;
+}
+
+
+</style>
